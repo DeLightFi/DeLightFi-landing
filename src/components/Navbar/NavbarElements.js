@@ -19,12 +19,14 @@ export const Wrapper = styled.div`
   z-index: 1;
 `;
 
-export const Menu = styled.ul`
+export const Menu = styled.div`
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   height: 50px;
   gap: 30px;
-  margin: 0 30px 0 100px;
+  margin: 0 30px 0 50px;
   padding: 0;
 
   pointer-events: auto;
@@ -33,36 +35,51 @@ export const Menu = styled.ul`
     margin: 0 30px;
   }
 
-  li {
-    list-style: none;
-    margin: 0;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
 
-    a {
-      text-decoration: none;
-      color: white;
-      padding: 8px 20px;
-      border-radius: 14px;
-      border: 1px solid rgba(255, 255, 255, 0);
-      transition: 1s;
+    li {
+      list-style: none;
+      margin: 0;
+      img {
+        padding: 0;
+        margin-right: 30px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0);
+        transition: 1s;
 
-      :hover {
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        :hover {
+          border: 1px solid rgba(255, 255, 255, 0.2);
+        }
       }
     }
   }
 
   button {
-    padding: 10px;
-    width: auto;
-    background: rgba(250, 188, 46, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
     border-radius: 14px;
-    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0);
+    background: rgba(250, 188, 46, 0.1);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-
+    transition: 1s;
     font-family: "Spline Sans", sans-serif;
     color: white;
     font-size: 16px;
+
+    :hover {
+      background: rgba(250, 188, 46, 0.8);
+      cursor: pointer;
+    }
   }
 
   @media (max-width: 800px) {

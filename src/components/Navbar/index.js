@@ -5,15 +5,15 @@ const Navbar = () => {
   return (
     <Wrapper>
       <Menu>
-        <li>
-          <img src={Logo} width="40px" alt="title" />
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
-        <li>
-          <button>Launch the App</button>
-        </li>
+        <ul>
+          <li>
+            <img src={Logo} width="40px" alt="title" />
+          </li>
+          <li>
+            <a href="/">About</a>
+          </li>
+        </ul>
+        <button>Launch the App</button>
       </Menu>
     </Wrapper>
   );
