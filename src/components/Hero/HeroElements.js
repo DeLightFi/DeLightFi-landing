@@ -7,8 +7,9 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   .spline {
     position: absolute;
