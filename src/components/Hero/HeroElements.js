@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-top: -60px;
 
   .spline {
     position: absolute;
@@ -37,14 +38,13 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  position: absolute;
-  top: 30px;
   width: 100%;
-  padding-bottom: 100px;
+  height: 100%;
   pointer-events: none;
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 80px;
 
   @media (max-width: 1024px) {
@@ -115,54 +115,6 @@ export const Content = styled.div`
 
     @media (max-width: 1024px) {
       margin: 0 30px;
-    }
-  }
-`;
-
-export const Menu = styled.ul`
-  display: flex;
-  gap: 30px;
-  align-items: center;
-  margin: 0 30px 0 100px;
-  padding: 0;
-  pointer-events: auto;
-
-  @media (max-width: 1024px) {
-    margin: 0 30px;
-  }
-
-  li {
-    list-style: none;
-    margin: 0;
-
-    a {
-      text-decoration: none;
-      color: white;
-      padding: 8px 20px;
-      border-radius: 14px;
-      border: 1px solid rgba(255, 255, 255, 0);
-      transition: 1s;
-
-      :hover {
-        border: 1px solid rgba(255, 255, 255, 0.2);
-      }
-    }
-  }
-
-  button {
-    margin: 0;
-    width: auto;
-    background: rgba(250, 188, 46, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-  }
-
-  @media (max-width: 800px) {
-    justify-content: space-between;
-    li:nth-child(2),
-    li:nth-child(3),
-    li:nth-child(4),
-    li:nth-child(5) {
-      display: none;
     }
   }
 `;
