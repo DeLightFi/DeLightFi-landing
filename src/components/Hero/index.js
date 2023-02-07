@@ -13,7 +13,13 @@ const Hero = () => {
       />
       <Social>
         <div />
-        <img src={IconTwitter} alt="Twitter" />
+        <a
+          style={{ cursor: "pointer" }}
+          href="https://twitter.com/MorphineFinance"
+          target="_blank"
+        >
+          <img src={IconTwitter} alt="Twitter" />
+        </a>
       </Social>
       <Content>
         <h1>This is Morphine</h1>
@@ -22,7 +28,9 @@ const Hero = () => {
           StarkNet - The Revolutionary Decentralized Leverage Platform through
           the Power of the Blockchain.
         </p>
-        <button>Launch the App</button>
+        <a className="button" href="https://morphine.store/" target="_blank">
+          Launch the App
+        </a>
       </Content>
     </Wrapper>
   );

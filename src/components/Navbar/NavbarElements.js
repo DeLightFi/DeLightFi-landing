@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link as LinkS } from "react-scroll";
 
 export const Wrapper = styled.div`
   position: fixed;
@@ -48,22 +49,10 @@ export const Menu = styled.div`
         padding: 0;
         margin-right: 30px;
       }
-      a {
-        text-decoration: none;
-        color: white;
-        padding: 8px 20px;
-        border-radius: 14px;
-        border: 1px solid rgba(255, 255, 255, 0);
-        transition: 1s;
-
-        :hover {
-          border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-      }
     }
   }
 
-  button {
+  .button {
     text-decoration: none;
     color: white;
     padding: 8px 20px;
@@ -90,5 +79,23 @@ export const Menu = styled.div`
     li:nth-child(5) {
       display: none;
     }
+  }
+`;
+
+export const NavLinks = styled(LinkS)`
+  text-decoration: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: 1s;
+  cursor: pointer;
+
+  .active {
+    border-bottom: 3px solid #000;
+  }
+
+  :hover {
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
 `;

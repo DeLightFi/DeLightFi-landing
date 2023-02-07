@@ -1,7 +1,7 @@
 import { Wrapper } from "./SectionElements";
 
 const Section = () => {
-  return <Wrapper>In dev.</Wrapper>;
+  return <Wrapper id="section">In dev.</Wrapper>;
 };
 
 export default Section;

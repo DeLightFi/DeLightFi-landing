@@ -1,4 +1,4 @@
-import { Wrapper, Menu } from "./NavbarElements";
+import { Wrapper, Menu, NavLinks } from "./NavbarElements";
 import Logo from "../../images/logo.svg";
 
 const Navbar = () => {
@@ -10,10 +10,21 @@ const Navbar = () => {
             <img src={Logo} width="40px" alt="title" />
           </li>
           <li>
-            <a href="/">About</a>
+            <NavLinks
+              to="section"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Section
+            </NavLinks>
           </li>
         </ul>
-        <button>Launch the App</button>
+        <a className="button" href="https://morphine.store/" target="_blank">
+          Launch the App
+        </a>
       </Menu>
     </Wrapper>
   );

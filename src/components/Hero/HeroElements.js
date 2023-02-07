@@ -80,7 +80,8 @@ export const Content = styled.div`
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
 
-  button {
+  .button {
+    text-decoration: none;
     background: rgba(0, 0, 0, 0.2);
     border: 0px;
     font-size: 16px;
@@ -109,7 +110,7 @@ export const Content = styled.div`
 
   h1,
   p,
-  button {
+  .button {
     margin: 0 30px 0 100px;
 
     @media (max-width: 1024px) {
