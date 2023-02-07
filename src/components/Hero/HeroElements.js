@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-top: -60px;
 
   .spline {
     position: absolute;
