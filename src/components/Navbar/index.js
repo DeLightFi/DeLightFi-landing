@@ -11,14 +11,24 @@ const Navbar = () => {
           </li>
           <li>
             <NavLinks
-              to="section"
+              to="about"
               smooth={true}
               duration={500}
               spy={true}
               exact="true"
               offset={-80}
             >
-              Section
+              About
+            </NavLinks>
+            <NavLinks
+              to="about2"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              About 2
             </NavLinks>
           </li>
         </ul>
