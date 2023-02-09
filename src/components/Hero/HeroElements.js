@@ -125,7 +125,7 @@ export const Social = styled.div`
   left: 30px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
 
   @media (max-width: 1024px) {
@@ -134,7 +134,7 @@ export const Social = styled.div`
 
   div {
     width: 1px;
-    height: 400px;
+    height: 300px;
     background: linear-gradient(180deg, #fe9032 0%, #fabc2e 100%);
   }
 `;

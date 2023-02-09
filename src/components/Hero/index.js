@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 
-import IconTwitter from "../../images/icon-twitter.svg";
+import { FaTwitter, FaDiscord, FaGithub } from "react-icons/fa";
 
 import { Wrapper, Content, Social } from "./HeroElements";
 
@@ -18,7 +18,21 @@ const Hero = () => {
           href="https://twitter.com/MorphineFinance"
           target="_blank"
         >
-          <img src={IconTwitter} alt="Twitter" />
+          <FaTwitter color="white" />
+        </a>
+        <a
+          style={{ cursor: "pointer" }}
+          href="https://discord.gg/PsMNBhnB"
+          target="_blank"
+        >
+          <FaDiscord color="white" />
+        </a>
+        <a
+          style={{ cursor: "pointer" }}
+          href="https://github.com/Morphine-labs/"
+          target="_blank"
+        >
+          <FaGithub color="white" />
         </a>
       </Social>
       <Content>
