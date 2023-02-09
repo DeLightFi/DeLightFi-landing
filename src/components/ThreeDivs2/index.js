@@ -16,7 +16,7 @@ import {
 
 const ThreeDivs2 = () => {
   return (
-    <Wrapper id="about">
+    <Wrapper id="about2">
       <Content>
         <Head>
           <Text>
