@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
   width: 100%;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 5px 0;
 
   background-color: rgba(22, 22, 22, 0.8);
   backdrop-filter: blur(5px);
