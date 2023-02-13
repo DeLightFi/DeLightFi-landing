@@ -7,10 +7,6 @@ import { Wrapper, Content, Social } from "./HeroElements";
 const Hero = () => {
   return (
     <Wrapper>
-      <Spline
-        className="spline"
-        scene="https://prod.spline.design/VtdjXOqCwQA7l6jt/scene.splinecode"
-      />
       <Social>
         <div />
         <a

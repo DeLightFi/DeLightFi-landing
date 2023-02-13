@@ -1,21 +1,16 @@
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Partners from "./components/Partners";
-import ThreeDivs from "./components/ThreeDivs";
-import ThreeDivs2 from "./components/ThreeDivs2";
-import Section from "./components/Section";
+import React from "react";
+import "./styles.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/index";
 
-export default function App() {
+function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <ThreeDivs id="about" />
-      <Partners />
-      <ThreeDivs2 id="about2" />
-      <Section />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} exact />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;
