@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  height: calc(100vh - 60px);
+  height: calc(60vh - 60px);
   font-family: "Spline Sans", sans-serif;
   color: white;
   font-size: 16px;
