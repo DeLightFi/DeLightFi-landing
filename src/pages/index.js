@@ -5,6 +5,7 @@ import Partners from "../components/Partners";
 import ThreeDivs from "../components/ThreeDivs";
 import ThreeDivs2 from "../components/ThreeDivs2";
 import Section from "../components/Section";
+import Contribute from "../components/Contribute";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Partners />
       <ThreeDivs2 id="about2" />
       <Section />
+      <Contribute />
       <Footer />
     </>
   );
