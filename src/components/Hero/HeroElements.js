@@ -10,34 +10,12 @@ export const Wrapper = styled.div`
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-
-  .spline {
-    position: absolute;
-    margin: 0;
-    left: 40%;
-    width: 60%;
-
-    @media (max-width: 1024px) {
-      transform: scale(0.8) translateX(200px);
-      transform-origin: top;
-    }
-    @media (max-width: 800px) {
-      transform: scale(0.7) translateX(600px);
-    }
-    @media (max-width: 600px) {
-      transform: scale(0.5) translateX(-100px);
-      right: auto;
-      left: 50%;
-      margin-left: -600px;
-    }
-    @media (max-width: 375px) {
-      transform: scale(0.45) translateX(-50px);
-    }
-  }
+  display: flex;
+  flex-direction: row;
 `;
 
 export const Content = styled.div`
-  width: 100%;
+  width: 40%;
   height: 100%;
   pointer-events: none;
 
@@ -117,6 +95,12 @@ export const Content = styled.div`
       margin: 0 30px;
     }
   }
+`;
+
+export const GraphWrapper = styled.div`
+  width: calc(60% - 2 * 2%);
+  height: calc(100% - 60px);
+  padding: 60px 2% 0 2%;
 `;
 
 export const Social = styled.div`

@@ -1,8 +1,7 @@
-import Spline from "@splinetool/react-spline";
-
 import { FaTwitter, FaDiscord, FaGithub } from "react-icons/fa";
+import MorphineGraph from "../MorphineGraph";
 
-import { Wrapper, Content, Social } from "./HeroElements";
+import { Wrapper, Content, Social, GraphWrapper } from "./HeroElements";
 
 const Hero = () => {
   return (
@@ -42,6 +41,9 @@ const Hero = () => {
           Launch the App
         </a>
       </Content>
+      <GraphWrapper>
+        <MorphineGraph />
+      </GraphWrapper>
     </Wrapper>
   );
 };
