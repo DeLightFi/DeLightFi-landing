@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": "node-0",
+            "label": "Morphine",
+            "has_descp": false,
+            "descp": "",
+            "website": "",
+            "twitter": "",
+            "type": "graphin-circle",
+            "style": {
+                "keyshape": {
+                    "size": 85,
+                    "stroke": "#0d1117",
+                    "fill": "#0d1117",
+                    "fillOpacity": 1
+                },
+                "icon": {
+                    "type": "image",
+                    "value": "http://localhost:3000/static/media/logo.8fd0400c.svg",
+                    "size": [
+                        60,
+                        60
+                    ],
+                    "clip": {
+                        "r": 35
+                    }
+                },
+                "label": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "id": "node-1",
+            "label": "Jediswap",
+            "has_descp": true,
+            "descp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis.",
+            "website": "https://app.jediswap.xyz/",
+            "twitter": "https://twitter.com/JediSwap",
+            "type": "graphin-circle",
+            "style": {
+                "keyshape": {
+                    "size": 45,
+                    "stroke": "#0d1117",
+                    "fill": "#0d1117",
+                    "fillOpacity": 1
+                },
+                "icon": {
+                    "type": "image",
+                    "value": "https://info.jediswap.xyz/static/media/jediswap-logo.64eaa7fd.png",
+                    "size": [
+                        30,
+                        30
+                    ],
+                    "clip": {
+                        "r": 25
+                    }
+                },
+                "label": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "id": "node-2",
+            "label": "Only Dust",
+            "has_descp": true,
+            "descp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis.",
+            "website": "",
+            "twitter": "",
+            "type": "graphin-circle",
+            "style": {
+                "keyshape": {
+                    "size": 45,
+                    "stroke": "#0d1117",
+                    "fill": "#0d1117",
+                    "fillOpacity": 1
+                },
+                "icon": {
+                    "type": "image",
+                    "value": "https://uploads-ssl.webflow.com/63d3d2c7912bc75b5030c7ad/63d3d2c7912bc7635830c800_OD_symbol_8.png",
+                    "size": [
+                        30,
+                        30
+                    ],
+                    "clip": {
+                        "r": 25
+                    }
+                },
+                "label": {
+                    "value": ""
+                }
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": "node-0",
+            "target": "node-1",
+            "style": {
+                "keyshape": {
+                    "lineWidth": 2,
+                    "endArrow": {
+                        "path": "M 0,0 L 0,0 L 0,0 Z",
+                        "fill": "white"
+                    }
+                }
+            }
+        },
+        {
+            "source": "node-0",
+            "target": "node-2",
+            "style": {
+                "keyshape": {
+                    "lineWidth": 2,
+                    "endArrow": {
+                        "path": "M 0,0 L 0,0 L 0,0 Z",
+                        "fill": "white"
+                    }
+                }
+            }
+        }
+    ]
+}
