@@ -14,6 +14,13 @@ const { Tooltip } = Components;
 const { ZoomCanvas, Hoverable } = Behaviors;
 
 const MorphineGraph = () => {
+  data.nodes.forEach((node) => {
+    if (node?.style?.icon?.type) {
+      if (node.style.icon.type == "image") {
+        node.style.icon.image = process.env.URI + node.style.icon.image;
+      }
+    }
+  });
   return (
     <Graphin data={data} theme={{ background: "#161616" }}>
       <Tooltip bindType="node" placement="top" hasArrow={false}>

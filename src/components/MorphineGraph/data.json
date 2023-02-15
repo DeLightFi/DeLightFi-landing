@@ -17,7 +17,7 @@
                 },
                 "icon": {
                     "type": "image",
-                    "value": "http://localhost:3000/static/media/logo.5c8456a5.svg",
+                    "value": "morphine-graph-images/morphine.svg",
                     "size": [
                         60,
                         60
@@ -48,7 +48,7 @@
                 },
                 "icon": {
                     "type": "image",
-                    "value": "https://info.jediswap.xyz/static/media/jediswap-logo.64eaa7fd.png",
+                    "value": "morphine-graph-images/jediswap.png",
                     "size": [
                         30,
                         30
@@ -79,7 +79,7 @@
                 },
                 "icon": {
                     "type": "image",
-                    "value": "https://uploads-ssl.webflow.com/63d3d2c7912bc75b5030c7ad/63d3d2c7912bc7635830c800_OD_symbol_8.png",
+                    "value": "morphine-graph-images/onlydust.png",
                     "size": [
                         30,
                         30
