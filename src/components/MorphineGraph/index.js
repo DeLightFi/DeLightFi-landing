@@ -11,7 +11,7 @@ import {
 import data from "./data.json";
 
 const { Tooltip } = Components;
-const { ZoomCanvas, Hoverable } = Behaviors;
+const { DragCanvas, ZoomCanvas, ActivateRelations } = Behaviors;
 
 const MorphineGraph = () => {
   data.nodes.forEach((node) => {
@@ -23,7 +23,7 @@ const MorphineGraph = () => {
   });
   return (
     <Graphin data={data} theme={{ background: "#161616" }}>
-      <Tooltip bindType="node" placement="top" hasArrow={false}>
+      <Tooltip bindType="node" placement="bottom" hasArrow={false}>
         {(value) => {
           if (value.model.has_descp) {
             return (
@@ -45,7 +45,9 @@ const MorphineGraph = () => {
           }
         }}
       </Tooltip>
-      <ZoomCanvas disabled />
+      <ZoomCanvas disabled={true} />
+      <DragCanvas disabled={true} />
+      <ActivateRelations disabled={true} />
     </Graphin>
   );
 };
