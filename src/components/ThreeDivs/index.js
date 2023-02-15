@@ -9,6 +9,7 @@ import {
   MBox,
   RBox,
 } from "./ThreeDivsElements";
+import data from "./data.json";
 
 const ThreeDivs = () => {
   return (
@@ -23,42 +24,24 @@ const ThreeDivs = () => {
       </svg>
       <Content>
         <Head>
-          <Title>On chain leverage</Title>
-          <SubTitle>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis
-            facilisis. Curabitur ac velit ac sapien sodales vehicula sit amet ut
-            massa.
-          </SubTitle>
+          <Title>{data.title}</Title>
+          <SubTitle>{data.subtitle}</SubTitle>
         </Head>
         <BoxWrapper>
           <LBox>
             <h1>01.</h1>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-              iaculis facilisis.
-            </span>
+            <h2>{data.sections[0].title}</h2>
+            <span>{data.sections[0].text}</span>
           </LBox>
           <MBox>
             <h1>02.</h1>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-              iaculis facilisis. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit.
-            </span>
+            <h2>{data.sections[1].title}</h2>
+            <span>{data.sections[1].text}</span>
           </MBox>
           <RBox>
             <h1>03.</h1>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-              iaculis facilisis.
-            </span>
+            <h2>{data.sections[2].title}</h2>
+            <span>{data.sections[2].text}</span>
           </RBox>
         </BoxWrapper>
       </Content>

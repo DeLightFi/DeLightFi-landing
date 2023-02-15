@@ -13,6 +13,7 @@ import {
   RBox1,
   RBox2,
 } from "./ThreeDivs2Elements";
+import data from "./data.json";
 
 const ThreeDivs2 = () => {
   return (
@@ -20,37 +21,23 @@ const ThreeDivs2 = () => {
       <Content>
         <Head>
           <Text>
-            <Title>How it works?</Title>
-            <SubTitle>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </SubTitle>
+            <Title>{data.title}</Title>
+            <SubTitle>{data.subtitle}</SubTitle>
           </Text>
         </Head>
         <BoxWrapper>
           <LBox>
-            <h2>Lorem ipsum</h2>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-              iaculis facilisis.
-            </span>
+            <h2>{data.sections[0].title}</h2>
+            <span>{data.sections[0].text}</span>
           </LBox>
           <RBoxWrapper>
             <RBox1>
-              <h2>Lorem ipsum</h2>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-                iaculis facilisis.
-              </span>
+              <h2>{data.sections[1].title}</h2>
+              <span>{data.sections[1].text}</span>
             </RBox1>
             <RBox2>
-              <h2>Lorem ipsum</h2>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                volutpat bibendum fermentum. Fusce in sapien sit amet lectus
-                iaculis facilisis.
-              </span>
+              <h2>{data.sections[2].title}</h2>
+              <span>{data.sections[2].text}</span>
             </RBox2>
           </RBoxWrapper>
         </BoxWrapper>

@@ -1,0 +1,18 @@
+{
+    "title": "In need a title",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis. Curabitur ac velit ac sapien sodales vehicula sit amet ut massa.",
+    "sections": [
+        {
+            "title": "One DeFi App for all",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+        },
+        {
+            "title": "Lorem ipsum dolor sit amet",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+        },
+        {
+            "title": "Lorem ipsum dolor sit amet",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+        }
+    ]
+}
