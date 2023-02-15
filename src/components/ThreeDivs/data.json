@@ -1,18 +1,18 @@
 {
-    "title": "On chain leverage",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis. Curabitur ac velit ac sapien sodales vehicula sit amet ut massa.",
+    "title": "DeFi like never before",
+    "subtitle": "We are experiencing a community effort to design the most efficient UX that users and Dapps can leverage to take the best out of DeFi.",
     "sections": [
         {
-            "title": "The Power in your hands",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Composable Leverage",
+            "text": "Don't get limited to leverage trading, get until 12x exposure to a currency and use it accross the DeFi Landscape!"
         },
         {
-            "title": "Lorem ipsum dolor sit amet",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Social-Fi",
+            "text": "Copy most performing strategy in on-click, you can also delegate the management to a strategist without paying any additional fees while keeping the custody of your assets. Become strategist and earn a portion of platform fees based of the volume of your followers."
         },
         {
-            "title": "Lorem ipsum dolor sit amet",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Flexible Management",
+            "text": "You can manage manually your holdings from our intuitive interface or use our SDK to build high frequencies trading strategies. Export your strategy or import chad ones."
         }
     ]
 }

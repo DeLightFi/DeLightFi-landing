@@ -31,15 +31,18 @@ const Hero = () => {
         </a>
       </Social>
       <Content>
-        <h1>This is Morphine</h1>
+        <h1>Morphine Toolkit</h1>
         <p>
-          Unlock the Full Potential of Your Crypto Assets with Morphine build on
-          StarkNet - The Revolutionary Decentralized Leverage Platform through
-          the Power of the Blockchain.
+          Morphine offers powerful and versatile tools to build, manage, scale and monetise on-chain strategies from the starknet ecosystem.
         </p>
-        <a className="button" href="https://morphine.store/" target="_blank">
-          Launch the App
-        </a>
+        <div>
+          <a className="button" href="https://morphine.store/" target="_blank">
+            Launch MVP
+          </a>
+          <a className="button" href="https://morphine.store/" target="_blank">
+            Build with us!
+          </a>
+        </div>
       </Content>
       <GraphWrapper>
         <MorphineGraph />

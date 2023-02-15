@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
         </ul>
         <a className="button" href="https://morphine.store/" target="_blank">
-          Launch the App
+          Launch MVP
         </a>
       </Menu>
     </Wrapper>

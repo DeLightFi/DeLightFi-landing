@@ -39,7 +39,7 @@ export const Head = styled.div`
 `;
 
 export const Title = styled.div`
-  width: 60%;
+  width: 70%;
   font-family: "Spline Sans Mono";
   font-style: normal;
   font-weight: 700;
@@ -51,7 +51,7 @@ export const Title = styled.div`
 `;
 
 export const SubTitle = styled.div`
-  width: 40%;
+  width: 30%;
   font-family: "Spline Sans Mono";
   font-style: normal;
   font-weight: 700;
