@@ -26,6 +26,7 @@ export const Main = styled.div`
 
     a {
       text-decoration: none;
+      color: #fabc2e;
       cursor: pointer;
     }
   }

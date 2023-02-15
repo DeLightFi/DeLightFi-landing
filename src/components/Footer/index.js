@@ -5,19 +5,27 @@ const Footer = () => {
     <Wrapper id="footer">
       <Main>
         <span>
-          <a>White Paper</a>
+          <a
+            href="https://sachas-organization.gitbook.io/morphine/"
+            target="_blank"
+          >
+            Docs
+          </a>
         </span>
         <span>|</span>
         <span>
-          <a>Docs</a>
+          <a
+            href="https://app.onlydust.xyz/projects/54f2df5e-decb-44d8-9a6e-d35f9b292569"
+            target="_blank"
+          >
+            Developers
+          </a>
         </span>
         <span>|</span>
         <span>
-          <a>Developers</a>
-        </span>
-        <span>|</span>
-        <span>
-          <a>App</a>
+          <a href="http://morphine.store/" target="_blank">
+            App
+          </a>
         </span>
       </Main>
       <Bottom>
