@@ -1,0 +1,55 @@
+{
+    "title": "Roadmap",
+    "milestone": [
+        {
+            "title": "Genesis",
+            "points": [
+                "Modular & isolated Pools with linear interest rate models",
+                "Undercollateralized borrow market Simple on-click strategies",
+                "Easy to-use interface to create and manage strategies",
+                "Integration with Yagi vaults and JediSwap",
+                "Powerfull Price Convertor (support Lp and ERC4626)",
+                "Multi asset to one asset PathFinder",
+                "Full integration and unit tests, scripts API (User, pools and drips data) and on-chain data provider",
+                "Testnet phase A"
+            ],
+            "image": "roadmap/genesis.svg"
+        },
+        {
+            "title": "Metamorph",
+            "points": [
+                "Transition to Cairo 1.0",
+                "On-chain interest rate model parameters calculator",
+                "Bring auction mechanism for liquidation",
+                "Over-collateralized market",
+                "More data for users",
+                "Rooter improvement, allow Multi asset to Multi assets",
+                "Testnet phase B"
+            ],
+            "image": "roadmap/metamorph.svg"
+        },
+        {
+            "title": "Launch",
+            "points": [
+                "Mainnet Launch",
+                "SDK Launch, adding some classic strategies",
+                "Drag & drop DeFi Block interface for drip management",
+                "Integration with Starknet ecosystem"
+            ],
+            "image": "roadmap/launch.svg"
+        },
+        {
+            "title": "After",
+            "points": [
+                "Add NFT support (Uniswap V3 LP type integration but also explore solutions for highly liquid NFTs as collateral)",
+                "Flash loan from pool",
+                "Add uncollateralized borrow module",
+                "P2P Matching between both borrower types and suppliers",
+                "Support projects built at the top of Morphine",
+                "Mobile compatibility",
+                "UX improvement"
+            ],
+            "image": "roadmap/after.svg"
+        }
+    ]
+}
