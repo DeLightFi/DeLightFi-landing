@@ -5,8 +5,10 @@ import {
   Text,
   Title,
   SubTitle,
+  ContribImages,
 } from "./ContributeElements";
-// TODO: import GitHubCalendar from "react-github-calendar";
+import data from "./data";
+
 const Contribute = () => {
   return (
     <Wrapper>
@@ -19,7 +21,13 @@ const Contribute = () => {
             </SubTitle>
           </Text>
         </Head>
-        {/*TODO: conflit with MorphineGraph <GitHubCalendar username="0xSacha" color="#fab52e" /> */}
+        <ContribImages>
+          {data.contributors.map((c) => (
+            <a href={`https://github.com/${c.github}`}>
+              <img src={`https://avatars.githubusercontent.com/${c.github}`} />
+            </a>
+          ))}
+        </ContribImages>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
         <a className="button" href="https://morphine.store/" target="_blank">
           Join the Morphine's adventure

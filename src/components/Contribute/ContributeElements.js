@@ -1,25 +1,19 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  position: relative;
   width: 100%;
-  height: calc(60vh - 60px);
   font-family: "Spline Sans", sans-serif;
-  color: white;
+  color: #161616;
   font-size: 16px;
-  background-color: #161616;
+  background-color: #ffa72e;
 `;
 
 export const Content = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
   width: calc(100% - 2 * 6%);
-  height: calc(100% - 2 * 3vw);
   padding: 3vw 6%;
-  gap: 30px;
+  gap: 10px;
 
   .button {
     text-decoration: none;
@@ -28,7 +22,7 @@ export const Content = styled.div`
     font-size: 16px;
     padding: 12px 30px;
     border-radius: 14px;
-    color: white;
+    color: #161616;
     border: 1px solid rgba(255, 255, 255, 0.1);
     max-width: 280px;
     backdrop-filter: blur(20px);
@@ -72,7 +66,7 @@ export const Title = styled.div`
   line-height: 3.8vw;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #161616;
 `;
 
 export const SubTitle = styled.div`
@@ -84,5 +78,26 @@ export const SubTitle = styled.div`
   line-height: 1.4vw;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #161616;
+`;
+
+export const ContribImages = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  a {
+    img {
+      border-radius: 1000px;
+      outline: 5px solid #ffa72e;
+      outline-offset: -4px;
+      width: 5vw;
+      height: 5vw;
+      margin-right: -2vw;
+      transition: 0.3s;
+
+      :hover {
+        margin-right: -1vw;
+      }
+    }
+  }
 `;
