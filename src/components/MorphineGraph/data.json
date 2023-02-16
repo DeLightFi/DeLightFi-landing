@@ -10,7 +10,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 85,
+                    "size": 100,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -41,7 +41,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 45,
+                    "size": 60,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -50,8 +50,8 @@
                     "type": "image",
                     "value": "morphine-graph-images/jediswap.png",
                     "size": [
-                        30,
-                        30
+                        40,
+                        40
                     ],
                     "clip": {
                         "r": 25
@@ -72,7 +72,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 45,
+                    "size": 60,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -81,8 +81,8 @@
                     "type": "image",
                     "value": "morphine-graph-images/onlydust.png",
                     "size": [
-                        30,
-                        30
+                        40,
+                        40
                     ],
                     "clip": {
                         "r": 25
@@ -103,7 +103,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 45,
+                    "size": 60,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -112,8 +112,8 @@
                     "type": "image",
                     "value": "morphine-graph-images/yagi.png",
                     "size": [
-                        30,
-                        30
+                        40,
+                        40
                     ],
                     "clip": {
                         "r": 25

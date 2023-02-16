@@ -113,8 +113,8 @@ export const Content = styled.div`
 
 export const GraphWrapper = styled.div`
   width: calc(60% - 2 * 2%);
-  height: calc(100% - 60px);
-  padding: 60px 2% 0 2%;
+  height: calc(100% - 60px - 60px);
+  padding: 60px 2% 60px 2%;
 `;
 
 export const Social = styled.div`
