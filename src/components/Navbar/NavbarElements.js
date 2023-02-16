@@ -13,7 +13,8 @@ export const Wrapper = styled.div`
   background-color: rgba(22, 22, 22, 0.8);
   backdrop-filter: blur(5px);
 
-  font-family: "Spline Sans", sans-serif;
+  font-family: "Spline Sans Mono";
+  font-style: normal;
   color: white;
   font-size: 16px;
 
@@ -65,7 +66,6 @@ export const Menu = styled.div`
     background: rgba(255, 167, 46, 0.9);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     transition: 1s;
-    font-family: "Spline Sans", sans-serif;
     color: white;
     font-size: 16px;
 
