@@ -16,7 +16,7 @@ const Navbar = () => {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               About
             </NavLinks>
@@ -26,7 +26,7 @@ const Navbar = () => {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Features
             </NavLinks>
@@ -36,7 +36,7 @@ const Navbar = () => {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Roadmap
             </NavLinks>
@@ -46,7 +46,7 @@ const Navbar = () => {
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-60}
             >
               Contribute
             </NavLinks>
