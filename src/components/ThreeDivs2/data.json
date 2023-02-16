@@ -1,18 +1,18 @@
 {
-    "title": "In need a title",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis. Curabitur ac velit ac sapien sodales vehicula sit amet ut massa.",
+    "title": "Cool stuff",
+    "subtitle": "Morphine is designed to be highly modular and customizable. In this way, anyone can plug to the protocol to build unique DeFi products! Build P2P lending market, leveraged yield vault, DeFi optimizer using AI and much more!",
     "sections": [
         {
-            "title": "One DeFi App for all",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Efficient Lending",
+            "text": "Each pool run in standalone environments with different parameters and supported assets as collateral. The interest rate model can be changed at any time and parameters are constantly updated. We can plug different borrow markets which with our numerous incentives ensure high pool utilisation."
         },
         {
-            "title": "Lorem ipsum dolor sit amet",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Smart Rooter",
+            "text": "Morphine Rooter allows you to swap N to N assets (including illiquid ones), providing the best rate (using third-party dex aggreagator). You can select slippage on any incoming assets."
         },
         {
-            "title": "Lorem ipsum dolor sit amet",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis."
+            "title": "Innovative liquidations",
+            "text": "Liquidate any borrowers out of collateral by repaying their debt, you can also flash loan their account and swap their assets into the debt token. Additionally, we introduce fair liquidations, a unique auction process that allows the market to negotiate the price at which a liquidation will occur."
         }
     ]
 }
