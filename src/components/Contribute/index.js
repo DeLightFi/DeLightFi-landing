@@ -16,9 +16,7 @@ const Contribute = () => {
         <Head>
           <Text>
             <Title>Let's Contribute!</Title>
-            <SubTitle>
-              Join an assembly of DeFi lovers
-            </SubTitle>
+            <SubTitle>Join an assembly of DeFi lovers</SubTitle>
           </Text>
         </Head>
         <ContribImages>
@@ -29,7 +27,11 @@ const Contribute = () => {
           ))}
         </ContribImages>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-        <a className="button" href="https://morphine.store/" target="_blank">
+        <a
+          className="button"
+          href="https://app.onlydust.xyz/projects/54f2df5e-decb-44d8-9a6e-d35f9b292569"
+          target="_blank"
+        >
           Join the Morphine's adventure
         </a>
       </Content>
