@@ -21,12 +21,15 @@ const Contribute = () => {
         </Head>
         <ContribImages>
           {data.contributors.map((c) => (
-            <a href={`https://github.com/${c.github}`}>
+            <a href={`https://github.com/${c.github}`} target="_blank">
               <img src={`https://avatars.githubusercontent.com/${c.github}`} />
             </a>
           ))}
         </ContribImages>
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        <span>
+          You are passionate and want to put your talent in an amazing project
+          of the ecosystem.
+        </span>
         <a
           className="button"
           href="https://app.onlydust.xyz/projects/54f2df5e-decb-44d8-9a6e-d35f9b292569"
