@@ -21,14 +21,34 @@ const Navbar = () => {
               About
             </NavLinks>
             <NavLinks
-              to="about2"
+              to="features"
               smooth={true}
               duration={500}
               spy={true}
               exact="true"
               offset={-80}
             >
-              About 2
+              Features
+            </NavLinks>
+            <NavLinks
+              to="roadmap"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Roadmap
+            </NavLinks>
+            <NavLinks
+              to="contribute"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
+              Contribute
             </NavLinks>
           </li>
         </ul>

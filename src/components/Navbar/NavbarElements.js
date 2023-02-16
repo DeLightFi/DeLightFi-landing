@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   color: white;
   font-size: 16px;
 
-  z-index: 1;
+  z-index: 10;
 `;
 
 export const Menu = styled.div`

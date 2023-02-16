@@ -11,7 +11,7 @@ import data from "./data";
 
 const Contribute = () => {
   return (
-    <Wrapper>
+    <Wrapper id="contribute">
       <Content>
         <Head>
           <Text>

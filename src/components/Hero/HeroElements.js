@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
   overflow-y: hidden;
   display: flex;
   flex-direction: row;
+  z-index: 1;
 `;
 
 export const BackgroundWrapper = styled.div`

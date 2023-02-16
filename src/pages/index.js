@@ -2,9 +2,9 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
-import ThreeDivs from "../components/ThreeDivs";
-import ThreeDivs2 from "../components/ThreeDivs2";
-import Section from "../components/Section";
+import About from "../components/About";
+import Features from "../components/Features";
+import Roadmap from "../components/Roadmap";
 import Contribute from "../components/Contribute";
 
 export default function Home() {
@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <ThreeDivs id="about" />
+      <About />
       <Partners />
-      <ThreeDivs2 id="about2" />
-      <Section />
+      <Features />
+      <Roadmap />
       <Contribute />
       <Footer />
     </>
