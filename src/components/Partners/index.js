@@ -1,8 +1,7 @@
 import { Wrapper } from "./PartnersElements";
-import Image1 from "./snw.png";
-import Image2 from "./mLabs.png";
-import Image3 from "./onlyD_white.png";
-
+import Image1 from "./logo/starknet.svg";
+import Image2 from "./logo/morphine.svg";
+import Image3 from "./logo/onlydust.svg";
 
 const Partners = () => {
   return (
