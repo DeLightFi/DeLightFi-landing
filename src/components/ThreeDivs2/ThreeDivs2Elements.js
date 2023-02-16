@@ -123,9 +123,9 @@ export const RBox1 = styled.div`
   font-family: "Spline Sans Mono";
   font-style: normal;
   font-weight: 700;
-  color: #ffffff;
+  color: #161616;
 
-  background: #161616;
+  background: #ffa72e;
   border-radius: 20px;
 
   h1 {

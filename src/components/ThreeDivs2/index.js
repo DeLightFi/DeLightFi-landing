@@ -7,8 +7,6 @@ import {
   Wrapper,
   BoxWrapper,
   LBox,
-  MBox,
-  RBox,
   RBoxWrapper,
   RBox1,
   RBox2,
