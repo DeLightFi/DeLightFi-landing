@@ -22,7 +22,7 @@ const MorphineGraph = () => {
     }
   });
   return (
-    <Graphin data={data} theme={{ background: "#161616" }}>
+    <Graphin data={data} theme={{ background: "transparent" }}>
       <Tooltip bindType="node" placement="bottom" hasArrow={false}>
         {(value) => {
           if (value.model.has_descp) {

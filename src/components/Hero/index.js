@@ -1,11 +1,21 @@
 import { FaTwitter, FaDiscord, FaGithub } from "react-icons/fa";
 import MorphineGraph from "../MorphineGraph";
 
-import { Wrapper, Content, Social, GraphWrapper } from "./HeroElements";
+import {
+  Wrapper,
+  BackgroundWrapper,
+  Content,
+  Social,
+  GraphWrapper,
+} from "./HeroElements";
+import HeroBackground from "./background";
 
 const Hero = () => {
   return (
     <Wrapper>
+      <BackgroundWrapper>
+        <HeroBackground />
+      </BackgroundWrapper>
       <Social>
         <div />
         <a
@@ -33,7 +43,8 @@ const Hero = () => {
       <Content>
         <h1>Morphine Toolkit</h1>
         <p>
-          Morphine offers powerful and versatile tools to build, manage, scale and monetise on-chain strategies from the starknet ecosystem.
+          Morphine offers powerful and versatile tools to build, manage, scale
+          and monetise on-chain strategies from the starknet ecosystem.
         </p>
         <div>
           <a className="button" href="https://morphine.store/" target="_blank">
