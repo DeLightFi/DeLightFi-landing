@@ -10,7 +10,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 85,
+                    "size": 100,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -41,7 +41,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 45,
+                    "size": 60,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -50,8 +50,8 @@
                     "type": "image",
                     "value": "morphine-graph-images/jediswap.png",
                     "size": [
-                        30,
-                        30
+                        40,
+                        40
                     ],
                     "clip": {
                         "r": 25
@@ -72,7 +72,7 @@
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 45,
+                    "size": 60,
                     "stroke": "#0d1117",
                     "fill": "#0d1117",
                     "fillOpacity": 1
@@ -81,8 +81,39 @@
                     "type": "image",
                     "value": "morphine-graph-images/onlydust.png",
                     "size": [
-                        30,
-                        30
+                        40,
+                        40
+                    ],
+                    "clip": {
+                        "r": 25
+                    }
+                },
+                "label": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "id": "node-3",
+            "label": "Yagi",
+            "has_descp": true,
+            "descp": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat bibendum fermentum. Fusce in sapien sit amet lectus iaculis facilisis.",
+            "website": "https://yagi.fi/",
+            "twitter": "https://twitter.com/yagi_fi",
+            "type": "graphin-circle",
+            "style": {
+                "keyshape": {
+                    "size": 60,
+                    "stroke": "#0d1117",
+                    "fill": "#0d1117",
+                    "fillOpacity": 1
+                },
+                "icon": {
+                    "type": "image",
+                    "value": "morphine-graph-images/yagi.png",
+                    "size": [
+                        40,
+                        40
                     ],
                     "clip": {
                         "r": 25
@@ -111,6 +142,19 @@
         {
             "source": "node-0",
             "target": "node-2",
+            "style": {
+                "keyshape": {
+                    "lineWidth": 2,
+                    "endArrow": {
+                        "path": "M 0,0 L 0,0 L 0,0 Z",
+                        "fill": "white"
+                    }
+                }
+            }
+        },
+        {
+            "source": "node-0",
+            "target": "node-3",
             "style": {
                 "keyshape": {
                     "lineWidth": 2,

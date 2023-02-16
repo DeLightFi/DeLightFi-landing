@@ -7,17 +7,15 @@ import {
   Wrapper,
   BoxWrapper,
   LBox,
-  MBox,
-  RBox,
   RBoxWrapper,
   RBox1,
   RBox2,
-} from "./ThreeDivs2Elements";
+} from "./FeaturesElements";
 import data from "./data.json";
 
-const ThreeDivs2 = () => {
+const Features = () => {
   return (
-    <Wrapper id="about2">
+    <Wrapper id="features">
       <Content>
         <Head>
           <Text>
@@ -46,4 +44,4 @@ const ThreeDivs2 = () => {
   );
 };
 
-export default ThreeDivs2;
+export default Features;

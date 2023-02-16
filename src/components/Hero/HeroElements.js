@@ -12,9 +12,19 @@ export const Wrapper = styled.div`
   overflow-y: hidden;
   display: flex;
   flex-direction: row;
+  z-index: 1;
+`;
+
+export const BackgroundWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 `;
 
 export const Content = styled.div`
+  z-index: 10;
   width: 40%;
   height: 100%;
   pointer-events: none;
@@ -52,10 +62,15 @@ export const Content = styled.div`
 
   p {
     font-weight: normal;
-    line-height: 150%;
     max-width: 380px;
     pointer-events: auto;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .button {
@@ -99,11 +114,12 @@ export const Content = styled.div`
 
 export const GraphWrapper = styled.div`
   width: calc(60% - 2 * 2%);
-  height: calc(100% - 60px);
-  padding: 60px 2% 0 2%;
+  height: calc(100% - 60px - 60px);
+  padding: 60px 2% 60px 2%;
 `;
 
 export const Social = styled.div`
+  z-index: 10;
   position: absolute;
   top: 150px;
   left: 30px;

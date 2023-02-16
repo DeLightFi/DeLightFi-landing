@@ -22,7 +22,19 @@ const MorphineGraph = () => {
     }
   });
   return (
-    <Graphin data={data} theme={{ background: "#161616" }}>
+    <Graphin
+      data={data}
+      theme={{ background: "transparent" }}
+      layout={{
+        type: "concentric",
+        fitCenter: true,
+        fitView: true,
+        linkDistance: 100, // The edge length
+        preventOverlap: true,
+        nodeSpacing: 130,
+        startAngle: 10,
+      }}
+    >
       <Tooltip bindType="node" placement="bottom" hasArrow={false}>
         {(value) => {
           if (value.model.has_descp) {

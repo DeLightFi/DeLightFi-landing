@@ -8,10 +8,10 @@ import {
   LBox,
   MBox,
   RBox,
-} from "./ThreeDivsElements";
+} from "./AboutElements";
 import data from "./data.json";
 
-const ThreeDivs = () => {
+const About = () => {
   return (
     <Wrapper id="about">
       <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,4 +49,4 @@ const ThreeDivs = () => {
   );
 };
 
-export default ThreeDivs;
+export default About;

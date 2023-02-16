@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   color: white;
   font-size: 16px;
 
-  z-index: 1;
+  z-index: 10;
 `;
 
 export const Menu = styled.div`
@@ -45,6 +45,10 @@ export const Menu = styled.div`
     li {
       list-style: none;
       margin: 0;
+      display: flex;
+      flex-direction: row;
+      gap: 1vw;
+
       img {
         padding: 0;
         margin-right: 30px;
@@ -54,11 +58,11 @@ export const Menu = styled.div`
 
   .button {
     text-decoration: none;
-    color: white;
+    color: #161616;
     padding: 8px 20px;
     border-radius: 14px;
-    border: 1px solid rgba(255, 255, 255, 0);
-    background: rgba(250, 188, 46, 0.1);
+    border: 1px solid rgba(255, 167, 46, 0.9);
+    background: rgba(255, 167, 46, 0.9);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     transition: 1s;
     font-family: "Spline Sans", sans-serif;
@@ -66,7 +70,9 @@ export const Menu = styled.div`
     font-size: 16px;
 
     :hover {
-      background: rgba(250, 188, 46, 0.8);
+      background: #161616;
+      border: 1px solid rgba(255, 167, 46, 0.9);
+      color: #ffa72e;
       cursor: pointer;
     }
   }
