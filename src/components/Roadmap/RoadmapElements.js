@@ -65,7 +65,7 @@ export const Timeline = styled.div`
 
 export const Milestone = styled.span`
   position: relative;
-  padding: 0 0 50px 30px;
+  padding: 0 0 50px 60px;
   font-size: 1.6vw;
 
   :hover {
@@ -80,7 +80,7 @@ export const Milestone = styled.span`
 
   :before {
     position: absolute;
-    left: -1px;
+    left: 30px;
     top: 14px;
     content: " ";
     border: 1px solid rgba(255, 255, 255, 0.74);
@@ -89,7 +89,7 @@ export const Milestone = styled.span`
 
   :after {
     position: absolute;
-    left: -8px;
+    left: 23px;
     top: 4px;
     content: " ";
     border: 3px solid rgba(255, 255, 255, 0.74);
@@ -117,7 +117,7 @@ export const Item = styled.div`
 export const Picture = styled.div`
   width: 20%;
   height: 100%;
-  margin-left: 5%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -12,7 +12,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   width: calc(100% - 2 * 6%);
-  padding: 3vw 6%;
+  padding: 3vw 6% 4vw 6%;
   gap: 10px;
 
   .button {
