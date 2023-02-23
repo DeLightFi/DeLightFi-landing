@@ -6,7 +6,7 @@ const Footer = () => {
       <Main>
         <span>
           <a
-            href="https://sachas-organization.gitbook.io/morphine/"
+            href="https://docs.morphine.store/"
             target="_blank"
           >
             Docs
@@ -23,7 +23,7 @@ const Footer = () => {
         </span>
         <span>|</span>
         <span>
-          <a href="http://morphine.store/" target="_blank">
+          <a href="https://app.morphine.store/" target="_blank">
             App
           </a>
         </span>
