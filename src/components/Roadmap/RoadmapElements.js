@@ -7,8 +7,11 @@ export const Wrapper = styled.div`
   font-family: "Spline Sans Mono";
   font-style: normal;
   color: white;
-  font-size: 16px;
   background-color: #161616;
+
+  @media (max-width: 480px) {
+    height: 65vh;
+  }
 `;
 
 export const Content = styled.div`
@@ -53,6 +56,10 @@ export const Row = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const Timeline = styled.div`
@@ -61,12 +68,22 @@ export const Timeline = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0px;
+
+  @media (max-width: 480px) {
+    flex-direction: row;
+    height: auto;
+  }
 `;
 
 export const Milestone = styled.span`
   position: relative;
   padding: 0 0 50px 60px;
   font-size: 1.6vw;
+
+  @media (max-width: 480px) {
+    padding: 25px 0 30px 11vw;
+    font-size: 2.6vw;
+  }
 
   :hover {
     cursor: pointer;
@@ -85,6 +102,11 @@ export const Milestone = styled.span`
     content: " ";
     border: 1px solid rgba(255, 255, 255, 0.74);
     height: 100%;
+
+    @media (max-width: 480px) {
+      height: 0%;
+      width: 100%;
+    }
   }
 
   :after {
@@ -112,6 +134,16 @@ export const Item = styled.div`
     font-size: 2.6vw;
     font-weight: 800;
   }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 2.6vw;
+
+    .title {
+      font-size: 4.6vw;
+      font-weight: 800;
+    }
+  }
 `;
 
 export const Picture = styled.div`
@@ -129,5 +161,10 @@ export const Picture = styled.div`
     width: 8vw;
     height: 8vw;
     fill: #161616;
+  }
+
+  @media (max-width: 480px) {
+    width: 80%;
+    height: 25%;
   }
 `;

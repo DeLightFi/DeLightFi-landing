@@ -14,8 +14,19 @@ export const Wrapper = styled.div`
     align-items: center;
 
     img {
-      width: auto;
-      height: 100%;
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    height: 10vh;
+    div {
+      padding: 5%;
+      img {
+        max-height: 70%;
+      }
     }
   }
 `;

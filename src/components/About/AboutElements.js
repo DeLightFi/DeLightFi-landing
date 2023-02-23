@@ -29,6 +29,10 @@ export const Content = styled.div`
   height: calc(100% - 2 * 3vw);
   padding: 3vw 6%;
   gap: 30px;
+
+  @media (max-width: 480px) {
+    height: 100%;
+  }
 `;
 
 export const Head = styled.div`
@@ -36,6 +40,10 @@ export const Head = styled.div`
   flex-direction: row;
   width: 100%;
   margin-bottom: 3%;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.div`
@@ -48,6 +56,12 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
   color: #ffffff;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 5.6vw;
+    line-height: 5.8vw;
+  }
 `;
 
 export const SubTitle = styled.div`
@@ -60,6 +74,12 @@ export const SubTitle = styled.div`
   display: flex;
   align-items: center;
   color: #ffffff;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 2vw;
+    line-height: 2.4vw;
+  }
 `;
 
 export const BoxWrapper = styled.div`
@@ -68,12 +88,17 @@ export const BoxWrapper = styled.div`
   width: 100%;
   height: 100%;
   align-items: flex-end;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const LBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
 
   height: 80%;
   width: 34%;
@@ -102,12 +127,31 @@ export const LBox = styled.div`
     font-size: 1.2vw;
     margin: 0 10%;
   }
+
+  @media (max-width: 480px) {
+    height: 30%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+
+    h1 {
+      font-size: 4.2vw;
+    }
+
+    h2 {
+      font-size: 4.6vw;
+    }
+
+    span {
+      font-size: 2.2vw;
+    }
+  }
 `;
 
 export const MBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
 
   width: 32%;
   height: 100%;
@@ -135,12 +179,31 @@ export const MBox = styled.div`
     font-size: 1.2vw;
     margin: 0 10%;
   }
+
+  @media (max-width: 480px) {
+    height: 30%;
+    width: 100%;
+    border-radius: 0px;
+
+    h1 {
+      font-size: 4.2vw;
+    }
+
+    h2 {
+      font-size: 4.6vw;
+    }
+
+    span {
+      font-size: 2.2vw;
+    }
+  }
 `;
 
 export const RBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
 
   height: 80%;
   width: 34%;
@@ -168,5 +231,23 @@ export const RBox = styled.div`
     font-weight: 600;
     font-size: 1.2vw;
     margin: 0 10%;
+  }
+
+  @media (max-width: 480px) {
+    height: 30%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+
+    h1 {
+      font-size: 4.2vw;
+    }
+
+    h2 {
+      font-size: 4.6vw;
+    }
+
+    span {
+      font-size: 2.2vw;
+    }
   }
 `;

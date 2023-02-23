@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
   height: 18vh;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 480px) {
+    height: 12vh;
+  }
 `;
 
 export const Main = styled.div`
@@ -28,6 +32,14 @@ export const Main = styled.div`
       text-decoration: none;
       color: #fabc2e;
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 480px) {
+    top: 1.5vh;
+
+    span {
+      font-size: 3vw;
     }
   }
 `;
@@ -63,6 +75,24 @@ export const Bottom = styled.div`
     a {
       text-decoration: none;
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 480px) {
+    top: 6.5vh;
+
+    svg {
+      width: 5vw;
+      height: 5vw;
+    }
+
+    div {
+      width: 2%;
+      height: 0px;
+    }
+
+    span {
+      font-size: 2vw;
     }
   }
 `;

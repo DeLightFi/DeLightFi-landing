@@ -33,6 +33,10 @@ export const Menu = styled.div`
 
   pointer-events: auto;
 
+  @media (max-width: 420px) {
+    justify-content: center;
+  }
+
   @media (max-width: 1024px) {
     margin: 0 30px;
   }
@@ -42,6 +46,15 @@ export const Menu = styled.div`
     flex-direction: row;
     align-items: center;
     padding: 0;
+
+    @media (max-width: 420px) {
+      li:nth-child(2),
+      li:nth-child(3),
+      li:nth-child(4),
+      li:nth-child(5) {
+        display: none;
+      }
+    }
 
     li {
       list-style: none;
@@ -53,6 +66,10 @@ export const Menu = styled.div`
       img {
         padding: 0;
         margin-right: 30px;
+
+        @media (max-width: 420px) {
+          margin-right: 0;
+        }
       }
     }
   }
@@ -75,14 +92,8 @@ export const Menu = styled.div`
       color: #ffa72e;
       cursor: pointer;
     }
-  }
 
-  @media (max-width: 800px) {
-    justify-content: space-between;
-    li:nth-child(2),
-    li:nth-child(3),
-    li:nth-child(4),
-    li:nth-child(5) {
+    @media (max-width: 420px) {
       display: none;
     }
   }

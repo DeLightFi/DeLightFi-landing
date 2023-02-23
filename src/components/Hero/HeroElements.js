@@ -34,7 +34,11 @@ export const Content = styled.div`
   justify-content: center;
   gap: 80px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 480px) {
+    width: 85%;
+    margin-left: 15%;
+    height: calc(100% - 80px);
+    padding-top: 60px;
     gap: 40px;
   }
 
@@ -54,9 +58,6 @@ export const Content = styled.div`
     @media (max-width: 800px) {
       font-size: 40px;
       max-width: 300px;
-    }
-    @media (max-width: 600px) {
-      padding-top: 250px;
     }
   }
 
@@ -116,25 +117,25 @@ export const GraphWrapper = styled.div`
   width: calc(60% - 2 * 2%);
   height: calc(100% - 60px - 60px);
   padding: 60px 2% 60px 2%;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const Social = styled.div`
   z-index: 10;
   position: absolute;
-  top: 150px;
+  top: 15vh;
   left: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 
-  @media (max-width: 1024px) {
-    display: none;
-  }
-
   div {
     width: 1px;
-    height: 300px;
+    height: 55vh;
     background: linear-gradient(180deg, #fe9032 0%, #fabc2e 100%);
   }
 `;

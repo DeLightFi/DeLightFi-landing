@@ -14,6 +14,7 @@ export const Content = styled.div`
   width: calc(100% - 2 * 6%);
   padding: 3vw 6% 4vw 6%;
   gap: 10px;
+  font-family: "Spline Sans Mono";
 
   .button {
     text-decoration: none;
@@ -42,12 +43,26 @@ export const Content = styled.div`
       transform: translateY(-3px);
     }
   }
+
+  @media (max-width: 480px) {
+    span {
+      font-size: 2.8vw;
+    }
+
+    .button {
+      font-size: 2.8vw;
+    }
+  }
 `;
 
 export const Head = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const Text = styled.div`
@@ -67,6 +82,12 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
   color: #161616;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 5.6vw;
+    line-height: 5.8vw;
+  }
 `;
 
 export const SubTitle = styled.div`
@@ -79,6 +100,12 @@ export const SubTitle = styled.div`
   display: flex;
   align-items: center;
   color: #161616;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 2vw;
+    line-height: 2.4vw;
+  }
 `;
 
 export const ContribImages = styled.div`
@@ -97,6 +124,22 @@ export const ContribImages = styled.div`
 
       :hover {
         margin-right: -1vw;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    a {
+      img {
+        outline: 3px solid #ffa72e;
+        outline-offset: -2px;
+        width: 12vw;
+        height: 12vw;
+        margin-right: -4vw;
+
+        :hover {
+          margin-right: -1vw;
+        }
       }
     }
   }
