@@ -1,6 +1,6 @@
 # Morphine Landing Page
 
-## <a href=""> Go live</a>
+## <a href="https://morphine.store/"> Go live</a>
 
 ### Description
 
