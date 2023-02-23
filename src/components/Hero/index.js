@@ -27,7 +27,7 @@ const Hero = () => {
         </a>
         <a
           style={{ cursor: "pointer" }}
-          href="https://discord.gg/PsMNBhnB"
+          href="https://discord.gg/hJupqTrK4G"
           target="_blank"
         >
           <FaDiscord color="white" />
