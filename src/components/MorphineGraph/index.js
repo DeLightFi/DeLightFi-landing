@@ -41,10 +41,10 @@ const MorphineGraph = () => {
             return (
               <TooltipWrapper>
                 <TooltipSocial>
-                  <a href={value.model.twitter}>
+                  <a href={value.model.twitter} target="_blank">
                     <FaTwitter />
                   </a>
-                  <a href={value.model.website}>
+                  <a href={value.model.website} target="_blank">
                     <FaGlobe />
                   </a>
                 </TooltipSocial>
