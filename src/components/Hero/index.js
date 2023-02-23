@@ -47,10 +47,10 @@ const Hero = () => {
           and monetise on-chain strategies from the starknet ecosystem.
         </p>
         <div>
-          <a className="button" href="https://morphine.store/" target="_blank">
+          <a className="button" href="https://app.morphine.store/" target="_blank">
             Launch MVP
           </a>
-          <a className="button" href="https://morphine.store/" target="_blank">
+          <a className="button" href="https://docs.morphine.store/contributors/tasks" target="_blank">
             Build with us!
           </a>
         </div>

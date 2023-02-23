@@ -52,7 +52,7 @@ const Navbar = () => {
             </NavLinks>
           </li>
         </ul>
-        <a className="button" href="https://morphine.store/" target="_blank">
+        <a className="button" href="https://app.morphine.store/" target="_blank">
           Launch MVP
         </a>
       </Menu>
