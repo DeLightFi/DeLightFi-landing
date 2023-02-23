@@ -2,7 +2,7 @@
     "title": "Roadmap",
     "milestone": [
         {
-            "title": "Genesis",
+            "title": "Morph 0.0",
             "points": [
                 "Modular & isolated Pools with linear interest rate models",
                 "Undercollateralized borrow market Simple on-click strategies",
@@ -16,38 +16,38 @@
             "image": "roadmap/genesis.svg"
         },
         {
-            "title": "Metamorph",
+            "title": "Morph 0.1",
             "points": [
-                "Transition to Cairo 1.0",
-                "On-chain interest rate model parameters calculator",
-                "Bring auction mechanism for liquidation",
-                "Over-collateralized market",
-                "More data for users",
-                "Rooter improvement, allow Multi asset to Multi assets",
-                "Testnet phase B"
+                "Batch Flash Loan",
+                "OverCollateralized borrow module",
+                "No-Collateralized borrow module",
+                "PID Controllers IRM",
+                "Liquidation threshold optimizer",
+                "Strategy export/import",
+                "Strategy monitoring"
             ],
             "image": "roadmap/metamorph.svg"
         },
         {
-            "title": "Launch",
+            "title": "Morph 0.2",
             "points": [
-                "Mainnet Launch",
-                "SDK Launch, adding some classic strategies",
-                "Drag & drop DeFi Block interface for drip management",
-                "Integration with Starknet ecosystem"
+                "Fair liquidation",
+                "N to N Rooter API",
+                "P2P Matching ",
+                "SDK",
+                "Leveraged Vault tutorial",
+                "Liquidation bot tutorial"
             ],
             "image": "roadmap/launch.svg"
         },
         {
-            "title": "After",
+            "title": "Morph 0.3",
             "points": [
-                "Add NFT support (Uniswap V3 LP type integration but also explore solutions for highly liquid NFTs as collateral)",
-                "Flash loan from pool",
-                "Add uncollateralized borrow module",
-                "P2P Matching between both borrower types and suppliers",
-                "Support projects built at the top of Morphine",
-                "Mobile compatibility",
-                "UX improvement"
+                "Uniswap V3 LP integration",
+                "More DeFi integration",
+                "UX improvement",
+                "Audit & Launch",
+                "DAO"
             ],
             "image": "roadmap/after.svg"
         }
