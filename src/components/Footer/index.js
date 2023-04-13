@@ -48,7 +48,7 @@ const Footer = () => {
           <a>Legal Notice</a>
         </span>
         <span>|</span>
-        <span>© Morphine</span>
+        <span>© DeLightFi</span>
         <span>|</span>
         <span>All rights reserved 2023</span>
       </Bottom>
