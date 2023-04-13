@@ -1,18 +1,18 @@
 {
-    "title": "DeFi like never before",
-    "subtitle": "We are experiencing a community effort to design the most efficient UX that users and Dapps can leverage to take the best out of DeFi.",
+    "title": "Morphine",
+    "subtitle": "",
     "sections": [
         {
             "title": "Composable Leverage",
-            "text": "Don't get limited to leverage trading, get until 12x exposure to a currency and use it accross the DeFi Landscape!"
+            "text": "Unlock greater potential with up to 15x exposure to yield-bearing tokens, without being restricted to leverage trading."
         },
         {
-            "title": "Social-Fi",
-            "text": "Copy most performing strategy in on-click, you can also delegate the management to a strategist without paying any additional fees while keeping the custody of your assets. Become strategist and earn a portion of platform fees based of the volume of your followers."
+            "title": "Automated rebalancing",
+            "text": "With automation features such as liquidation protection, asset rebalancing, and profit-taking, DeFi users can now enjoy a similar experience to centralized exchanges (CEX) while safeguarding their accounts and maximizing returns."
         },
         {
-            "title": "Flexible Management",
-            "text": "You can manage manually your holdings from our intuitive interface or use our SDK to build high frequencies trading strategies. Export your strategy or import chad ones."
+            "title": "Secured and efficient passif management",
+            "text": "Provide liquidity and earn low-risk APY from borrower interest fees. Pools are insurred by accumulated protocol fees and utilizes control theory to optimize borrowing costs, thereby maximizing capital efficiency on the protocol."
         }
     ]
 }

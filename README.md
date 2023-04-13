@@ -1,10 +1,10 @@
-# Morphine Landing Page
+# De Landing Page
 
-## <a href="https://morphine.store/"> Go live</a>
+## <a href="https://delightfi.xyz/"> Go live</a>
 
 ### Description
 
-This is the Morphine's React.js based landing page. Degen design such as the app, it provides to users all the important informations about the protocol.
+This is the DelightFi's React.js based landing page. Degen design such as the app, it provides to users all the important informations about the protocol.
 
 ### Features
 

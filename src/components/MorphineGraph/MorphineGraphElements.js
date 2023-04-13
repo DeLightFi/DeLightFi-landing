@@ -17,8 +17,8 @@ export const TooltipWrapper = styled.div`
   width: 20vw;
   display: flex;
   flex-direction: column;
-  color: #000000;
-  background: #ffa72e;
+  color: #ffffff;
+  background: #161616;
   border-radius: 10px;
   font-family: "Spline Sans Mono";
   font-style: normal;
@@ -39,7 +39,7 @@ export const TooltipSocial = styled.div`
   a {
     svg {
       size: 1vw;
-      color: black;
+      color: white;
     }
   }
 `;

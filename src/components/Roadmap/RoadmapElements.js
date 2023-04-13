@@ -116,7 +116,7 @@ export const Milestone = styled.span`
     content: " ";
     border: 3px solid rgba(255, 255, 255, 0.74);
     border-radius: 500%;
-    background: #ffa72e;
+    background: #161616;
     height: 10px;
     width: 10px;
     transition: all 500ms ease-in-out;
@@ -148,14 +148,14 @@ export const Item = styled.div`
 
 export const Picture = styled.div`
   width: 20%;
-  height: 100%;
+  height: 80%;
   margin-left: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background-color: #ffa72e;
+  background: white;
 
   img {
     width: 8vw;

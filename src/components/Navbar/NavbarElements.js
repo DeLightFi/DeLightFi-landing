@@ -79,12 +79,13 @@ export const Menu = styled.div`
     color: #161616;
     padding: 8px 20px;
     border-radius: 14px;
-    border: 1px solid rgba(255, 167, 46, 0.9);
+    border: 1px solid #161616;
     background: rgba(255, 167, 46, 0.9);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     transition: 1s;
     color: white;
     font-size: 16px;
+    background-color: #161616;
 
     :hover {
       background: #161616;

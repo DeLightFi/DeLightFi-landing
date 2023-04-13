@@ -31,15 +31,15 @@ const MorphineGraph = () => {
         fitView: true,
         linkDistance: 100, // The edge length
         preventOverlap: true,
-        nodeSpacing: 130,
+        nodeSpacing: 150,
         startAngle: 10,
       }}
     >
-      <Tooltip bindType="node" placement="bottom" hasArrow={false}>
+      <Tooltip hasArrow={false} style={{ position: 'absolute', top: '80%', left: '20%', border: 'solid 1px #ffffff' }}>
         {(value) => {
           if (value.model.has_descp) {
             return (
-              <TooltipWrapper>
+              <TooltipWrapper >
                 <TooltipSocial>
                   <a href={value.model.twitter} target="_blank">
                     <FaTwitter />

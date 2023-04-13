@@ -18,7 +18,7 @@ const Navbar = () => {
               exact="true"
               offset={-60}
             >
-              About
+              Morphine
             </NavLinks>
             <NavLinks
               to="features"
@@ -28,7 +28,7 @@ const Navbar = () => {
               exact="true"
               offset={-60}
             >
-              Features
+              Starken
             </NavLinks>
             <NavLinks
               to="roadmap"
@@ -52,8 +52,8 @@ const Navbar = () => {
             </NavLinks>
           </li>
         </ul>
-        <a className="button" href="https://app.morphine.store/" target="_blank">
-          Launch MVP
+        <a className="button" href="https://t.me/SachaEth" target="_blank">
+          Contact
         </a>
       </Menu>
     </Wrapper>

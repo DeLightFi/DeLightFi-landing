@@ -35,7 +35,7 @@ const Contribute = () => {
           href="https://app.onlydust.xyz/projects/54f2df5e-decb-44d8-9a6e-d35f9b292569"
           target="_blank"
         >
-          Join the Morphine's adventure
+          Join the DeLighFi's adventure
         </a>
       </Content>
     </Wrapper>

@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   font-family: "Spline Sans", sans-serif;
   color: #161616;
   font-size: 16px;
-  background-color: #ffa72e;
+  background-color: #ffffff;
 `;
 
 export const Content = styled.div`
@@ -24,7 +24,7 @@ export const Content = styled.div`
     padding: 12px 30px;
     border-radius: 14px;
     color: #161616;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #161616;
     max-width: 280px;
     backdrop-filter: blur(20px);
     font-weight: 600;
@@ -115,7 +115,7 @@ export const ContribImages = styled.div`
   a {
     img {
       border-radius: 1000px;
-      outline: 5px solid #ffa72e;
+      outline: 5px solid #000000;
       outline-offset: -4px;
       width: 5vw;
       height: 5vw;

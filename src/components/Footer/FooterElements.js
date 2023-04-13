@@ -24,13 +24,13 @@ export const Main = styled.div`
   span {
     font-family: "Spline Sans Mono";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.6vw;
-    color: #fabc2e;
+    color: #ffffff;
 
     a {
       text-decoration: none;
-      color: #fabc2e;
+      color: #ffffff;
       cursor: pointer;
     }
   }
@@ -62,7 +62,7 @@ export const Bottom = styled.div`
   div {
     width: 38%;
     height: 2px;
-    background-color: #fabc2e;
+    background-color: #ffffff;
   }
 
   span {
@@ -70,7 +70,7 @@ export const Bottom = styled.div`
     font-style: normal;
     font-weight: 700;
     font-size: 1vw;
-    color: #fabc2e;
+    color: #ffffff;
 
     a {
       text-decoration: none;

@@ -132,10 +132,12 @@ export const Social = styled.div`
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  background-color: #161616;
+  padding: 1%;
 
   div {
     width: 1px;
     height: 55vh;
-    background: linear-gradient(180deg, #fe9032 0%, #fabc2e 100%);
+    background: linear-gradient(180deg, #ff9331 0%, #35bcff 100%);
   }
 `;

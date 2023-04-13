@@ -2,7 +2,7 @@
     "title": "Roadmap",
     "milestone": [
         {
-            "title": "Morph 0.0",
+            "title": "0.0 - available",
             "points": [
                 "Modular & isolated Pools with linear interest rate models",
                 "Undercollateralized borrow market Simple on-click strategies",
@@ -16,36 +16,28 @@
             "image": "roadmap/genesis.svg"
         },
         {
-            "title": "Morph 0.1",
+            "title": "0.1 - building",
             "points": [
-                "Batch Flash Loan",
-                "OverCollateralized borrow module",
-                "No-Collateralized borrow module",
-                "PID Controllers IRM",
-                "Liquidation threshold optimizer",
-                "Strategy export/import",
-                "Strategy monitoring"
+                "Cairo 1 transition",
+                "Yield analysis",
+                "Portfolio Tracking"
             ],
             "image": "roadmap/metamorph.svg"
         },
         {
-            "title": "Morph 0.2",
+            "title": "0.2",
             "points": [
-                "Fair liquidation",
-                "N to N Rooter API",
-                "P2P Matching ",
-                "SDK",
-                "Leveraged Vault tutorial",
-                "Liquidation bot tutorial"
+                "Batch Flash Loan",
+                "PID Controllers IRM",
+                "Liquidation threshold optimizer",
+                "SDK"
             ],
             "image": "roadmap/launch.svg"
         },
         {
-            "title": "Morph 0.3",
+            "title": "0.3",
             "points": [
-                "Uniswap V3 LP integration",
                 "More DeFi integration",
-                "UX improvement",
                 "Audit & Launch",
                 "DAO"
             ],

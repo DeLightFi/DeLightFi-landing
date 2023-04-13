@@ -93,6 +93,9 @@ export const LBox = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
 
+  border-left: solid 2px #e022ff;
+  border-bottom: solid 2px #35bcff;
+
   height: 100%;
   width: 30%;
 
@@ -168,7 +171,7 @@ export const RBox1 = styled.div`
   font-weight: 700;
   color: #161616;
 
-  background: #ffa72e;
+  background: linear-gradient(180deg, #e022ff 0%, #35bcff 100%);
   border-radius: 20px;
 
   h1 {

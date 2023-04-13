@@ -2,28 +2,28 @@
     "nodes": [
         {
             "id": "node-0",
-            "label": "Morphine",
-            "has_descp": false,
+            "label": "DeLightFi",
+            "has_descp": true,
             "descp": "",
             "website": "",
-            "twitter": "",
+            "twitter": "https://twitter.com/DeLightFi_",
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 100,
-                    "stroke": "#0d1117",
-                    "fill": "#0d1117",
-                    "fillOpacity": 1
+                    "size": 50,
+                    "stroke": "#161616",
+                    "fill": "#161616",
+                    "fillOpacity": 0
                 },
                 "icon": {
                     "type": "image",
-                    "value": "morphine-graph-images/morphine.svg",
+                    "value": "morphine-graph-images/delightfi.svg",
                     "size": [
-                        60,
-                        60
+                        25,
+                        25
                     ],
                     "clip": {
-                        "r": 35
+                        "r": 90
                     }
                 },
                 "label": {
@@ -33,28 +33,28 @@
         },
         {
             "id": "node-1",
-            "label": "Jediswap",
+            "label": "Morphine",
             "has_descp": true,
-            "descp": "Through Morphine, you can leverage Swap/Liquidity from JediSwap",
-            "website": "https://app.jediswap.xyz/",
-            "twitter": "https://twitter.com/JediSwap",
+            "descp": "Get until 15x more buying power through Yield-bearing tokens and set automated rebalancing",
+            "website": "https://app.morphine.store/Pools",
+            "twitter": "https://twitter.com/MorphineFi",
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 60,
-                    "stroke": "#0d1117",
-                    "fill": "#0d1117",
-                    "fillOpacity": 1
+                    "size": 130,
+                    "stroke": "#161616",
+                    "fill": "#161616",
+                    "fillOpacity": 0
                 },
                 "icon": {
                     "type": "image",
-                    "value": "morphine-graph-images/jediswap.png",
+                    "value": "morphine-graph-images/morphine.svg",
                     "size": [
-                        40,
-                        40
+                        75,
+                        75
                     ],
                     "clip": {
-                        "r": 25
+                        "r": 90
                     }
                 },
                 "label": {
@@ -64,59 +64,28 @@
         },
         {
             "id": "node-2",
-            "label": "Only Dust",
+            "label": "Starken",
             "has_descp": true,
-            "descp": "Only Dust allows cairo developers to contribute to Morphine",
-            "website": "https://www.onlydust.xyz/",
-            "twitter": "https://twitter.com/OnlyDust_xyz",
+            "descp": "Indexing infrastructure with advanced portfolio tracking and yield analysis services",
+            "website": "https://starkendefi.xyz/app",
+            "twitter": "https://twitter.com/starkendefi",
             "type": "graphin-circle",
             "style": {
                 "keyshape": {
-                    "size": 60,
-                    "stroke": "#0d1117",
-                    "fill": "#0d1117",
-                    "fillOpacity": 1
+                    "size": 130,
+                    "stroke": "#161616",
+                    "fill": "#161616",
+                    "fillOpacity": 0
                 },
                 "icon": {
                     "type": "image",
-                    "value": "morphine-graph-images/onlydust.png",
+                    "value": "morphine-graph-images/starken.svg",
                     "size": [
-                        40,
-                        40
+                        75,
+                        75
                     ],
                     "clip": {
-                        "r": 25
-                    }
-                },
-                "label": {
-                    "value": ""
-                }
-            }
-        },
-        {
-            "id": "node-3",
-            "label": "Yagi",
-            "has_descp": true,
-            "descp": "Yagi provides Vault strategies through Starknet DeFI that Morphine can Leverage",
-            "website": "https://yagi.fi/",
-            "twitter": "https://twitter.com/yagi_fi",
-            "type": "graphin-circle",
-            "style": {
-                "keyshape": {
-                    "size": 60,
-                    "stroke": "#0d1117",
-                    "fill": "#0d1117",
-                    "fillOpacity": 1
-                },
-                "icon": {
-                    "type": "image",
-                    "value": "morphine-graph-images/yagi.png",
-                    "size": [
-                        40,
-                        40
-                    ],
-                    "clip": {
-                        "r": 25
+                        "r": 90
                     }
                 },
                 "label": {
@@ -142,19 +111,6 @@
         {
             "source": "node-0",
             "target": "node-2",
-            "style": {
-                "keyshape": {
-                    "lineWidth": 2,
-                    "endArrow": {
-                        "path": "M 0,0 L 0,0 L 0,0 Z",
-                        "fill": "white"
-                    }
-                }
-            }
-        },
-        {
-            "source": "node-0",
-            "target": "node-3",
             "style": {
                 "keyshape": {
                     "lineWidth": 2,

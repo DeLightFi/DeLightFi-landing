@@ -20,7 +20,7 @@ const Hero = () => {
         <div />
         <a
           style={{ cursor: "pointer" }}
-          href="https://twitter.com/MorphineFinance"
+          href="https://twitter.com/DeLightFi_"
           target="_blank"
         >
           <FaTwitter color="white" />
@@ -34,21 +34,23 @@ const Hero = () => {
         </a>
         <a
           style={{ cursor: "pointer" }}
-          href="https://github.com/Morphine-labs/"
+          href="https://github.com/DeLightFi"
           target="_blank"
         >
           <FaGithub color="white" />
         </a>
       </Social>
       <Content>
-        <h1>Morphine Toolkit</h1>
+        <h1>DeLightFi</h1>
         <p>
-          Morphine offers powerful and versatile tools to build, manage, scale
-          and monetise on-chain strategies from the starknet ecosystem.
+          DeLightFi offers a comprehensive range of tools designed to maximize the potential of decentralized finance on Layer 2 solutions.
         </p>
         <div>
           <a className="button" href="https://app.morphine.store/" target="_blank">
-            Launch MVP
+            Morphine
+          </a>
+          <a className="button" href="https://starkendefi.xyz/app" target="_blank">
+            Starken
           </a>
           <a className="button" href="https://docs.morphine.store/contributors/tasks" target="_blank">
             Build with us!

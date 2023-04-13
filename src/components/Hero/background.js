@@ -10,14 +10,19 @@ const HeroBackground = () => {
           id="ffflurry-grad"
           gradientTransform="rotate(270)"
         >
-          <stop stop-color="#161616" stop-opacity="1" offset="0%"></stop>
+          <stop stop-color="#ff9331" stop-opacity="1" offset="0%"></stop>
           <stop
-            stop-color="rgba(255, 167, 46, 1)"
+            stop-color="#fbbb2f"
             stop-opacity="1"
-            offset="45%"
+            offset="35%"
           ></stop>
           <stop
-            stop-color="rgba(223, 142, 32, 1)"
+            stop-color="#35bcff"
+            stop-opacity="1"
+            offset="70%"
+          ></stop>
+          <stop
+            stop-color="#e022ff"
             stop-opacity="1"
             offset="100%"
           ></stop>
