@@ -131,7 +131,7 @@ export const ContribImages = styled.div`
   @media (max-width: 480px) {
     a {
       img {
-        outline: 3px solid #ffa72e;
+        outline: 3px solid #000000;
         outline-offset: -2px;
         width: 12vw;
         height: 12vw;
