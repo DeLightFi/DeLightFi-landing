@@ -6,7 +6,7 @@ const Footer = () => {
       <Main>
         <span>
           <a
-            href="https://docs.morphine.store/"
+            href="https://docs.delightfi.xyz/"
             target="_blank"
           >
             Docs
