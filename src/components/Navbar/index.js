@@ -52,14 +52,16 @@ const Navbar = () => {
             </NavLinks>
           </li>
         </ul>
-        <>
-          <a className="button" href="https://t.me/SachaEth" target="_blank">
-            Docs
-          </a>
-          <a className="button" href="https://t.me/SachaEth" target="_blank">
-            Contact
-          </a>
-        </>
+        <ul>
+          <li>
+            <a className="button" href="https://docs.delightfi.xyz/" target="_blank">
+              Docs
+            </a>
+            <a className="button" href="https://t.me/SachaEth" target="_blank">
+              Contact
+            </a>
+          </li>
+        </ul>
       </Menu>
     </Wrapper>
   );
