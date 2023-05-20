@@ -46,8 +46,11 @@ const Hero = () => {
           DeLightFi offers a comprehensive range of tools designed to maximize the potential of decentralized finance on Layer 2 solutions.
         </p>
         <div>
+          <a className="button" href="https://morphinefi.xyz/" target="_blank">
+            Morphine - Mainnet
+          </a>
           <a className="button" href="https://app.morphine.store/" target="_blank">
-            Morphine
+            Morphine - Testnet
           </a>
           <a className="button" href="https://starkendefi.xyz/app" target="_blank">
             Starken

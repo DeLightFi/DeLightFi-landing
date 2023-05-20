@@ -18,19 +18,19 @@
         {
             "title": "0.1 - building",
             "points": [
-                "Cairo 1 transition",
-                "Yield analysis",
-                "Portfolio Tracking"
+                "Yield analysis - done",
+                "Portfolio Tracking - done",
+                "Cairo 1 transition - building",
+                "SDK - building"
             ],
             "image": "roadmap/metamorph.svg"
         },
         {
             "title": "0.2",
             "points": [
-                "Batch Flash Loan",
+                "on-chain yield risk score",
                 "PID Controllers IRM",
-                "Liquidation threshold optimizer",
-                "SDK"
+                "Liquidation threshold optimizer"
             ],
             "image": "roadmap/launch.svg"
         },
